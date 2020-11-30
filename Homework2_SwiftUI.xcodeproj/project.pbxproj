@@ -11,6 +11,8 @@
 		3C8AEE3B257501EA00C8EE75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8AEE3A257501EA00C8EE75 /* ContentView.swift */; };
 		3C8AEE3D257501F000C8EE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8AEE3C257501F000C8EE75 /* Assets.xcassets */; };
 		3C8AEE40257501F000C8EE75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8AEE3F257501F000C8EE75 /* Preview Assets.xcassets */; };
+		3CBB27CD257509CC00A623B7 /* MyImageClassifier.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = 3CBB27CC257509CC00A623B7 /* MyImageClassifier.mlproj */; };
+		3CBB27D425751A2700A623B7 /* FinalImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB27D325751A2700A623B7 /* FinalImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3C8AEE3C257501F000C8EE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C8AEE3F257501F000C8EE75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C8AEE41257501F000C8EE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBB27CC257509CC00A623B7 /* MyImageClassifier.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyImageClassifier.mlproj; sourceTree = "<group>"; };
+		3CBB27D325751A2700A623B7 /* FinalImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FinalImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		3C8AEE37257501EA00C8EE75 /* Homework2_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3CBB27CA2575044B00A623B7 /* MLModel */,
 				3C8AEE38257501EA00C8EE75 /* Homework2_SwiftUIApp.swift */,
 				3C8AEE3A257501EA00C8EE75 /* ContentView.swift */,
 				3C8AEE3C257501F000C8EE75 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				3C8AEE3F257501F000C8EE75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CBB27CA2575044B00A623B7 /* MLModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CBB27CC257509CC00A623B7 /* MyImageClassifier.mlproj */,
+				3CBB27D325751A2700A623B7 /* FinalImageClassifier.mlmodel */,
+			);
+			path = MLModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8AEE40257501F000C8EE75 /* Preview Assets.xcassets in Resources */,
+				3CBB27CD257509CC00A623B7 /* MyImageClassifier.mlproj in Resources */,
 				3C8AEE3D257501F000C8EE75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			files = (
 				3C8AEE3B257501EA00C8EE75 /* ContentView.swift in Sources */,
 				3C8AEE39257501EA00C8EE75 /* Homework2_SwiftUIApp.swift in Sources */,
+				3CBB27D425751A2700A623B7 /* FinalImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
